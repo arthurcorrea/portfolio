@@ -1,0 +1,164 @@
+{
+  "HomePage": {
+    "title": "Arthur Vinícius Corrêa's Portfolio"
+  },
+  "Navigation": {
+    "about": "About",
+    "experience": "Experience",
+    "education": "Education",
+    "projects": "Projects",
+    "contact": "Contact",
+    "toggleTheme": "Toggle Theme",
+    "toggleLang": "Change Language"
+  },
+  "Hero": {
+    "greeting": "Hi, I am",
+    "name": "Arthur Vinícius Corrêa",
+    "roles": ["Full Stack Developer", "Web & Mobile Specialist", "Performance Driven"],
+    "description": "Developer focused on clean architecture, system reliability, and user experience.",
+    "ctaProjects": "View Projects",
+    "ctaContact": "Get in Touch"
+  },
+  "About": {
+    "title": "About Me",
+    "description": "I am a Full Stack Developer with an analytical profile, focused on building robust and scalable solutions. My experience covers the entire development lifecycle, from data modeling to cloud deployment.",
+    "skillsTitle": "Technical Skills",
+    "skillGroups": {
+      "web": "Web",
+      "mobile": "Mobile",
+      "backend": "Back-end",
+      "devops": "DevOps & Cloud"
+    },
+    "skills": {
+      "react": { "name": "React", "desc": "SPA, Componentization and responsiveness." },
+      "nextjs": { 
+        "name": "Next.js", 
+        "desc": "SSR, ISR, and modern web architecture." 
+      },
+      "typescript": { 
+        "name": "TypeScript", 
+        "desc": "Strict typing for safer and maintainable code." 
+      },
+      "tailwind": { 
+        "name": "Tailwind CSS", 
+        "desc": "Responsive design and utility-first styling." 
+      },
+      "reactnative": { 
+        "name": "React Native", 
+        "desc": "Cross-platform native apps for iOS and Android." 
+      },
+      "sqlite": { "name": "SQLite", "desc": "Database for offline apps." },
+      "offline": { 
+        "name": "Offline First", 
+        "desc": "Local data persistence and sync." 
+      },
+      "sync": { 
+        "name": "Sync Services", 
+        "desc": "Background sync and push notifications." 
+      },
+      "nodejs": { 
+        "name": "Node.js", 
+        "desc": "Scalable APIs focusing on high performance." 
+      },
+      "laravel": { 
+        "name": "Laravel (PHP)", 
+        "desc": "Robust and rapid backend development." 
+      },
+      "postgres": { 
+        "name": "PostgreSQL", 
+        "desc": "Relational modeling and query optimization." 
+      },
+      "mongodb": { "name": "MongoDB", "desc": "Non-relational database for large volumes of data." },
+      "docker": { 
+        "name": "Docker", 
+        "desc": "Containerization and environment isolation." 
+      },
+      "aws": { 
+        "name": "AWS Cloud", 
+        "desc": "Cloud deployment using EC2, S3, and RDS." 
+      },
+      "redisrabbitmq": { "name": "Redis/RabbitMQ", "desc": "High-performance caching, queues, and sessions." },
+      "git": { 
+        "name": "CI/CD & Git", 
+        "desc": "Workflow automation and version control." 
+      }
+    }
+  },
+  "Experience": {
+    "title": "Professional Experience",
+    "jobs": {
+      "versa": {
+        "role": "Software Developer",
+        "company": "Versa Tecnologia",
+        "period": "Jan 2025 - Present",
+        "location": "Caratinga, MG",
+        "description": [
+          "Develop web-based land regularization systems using Next.js and Laravel.",
+          "Led development of a WebGIS platform with geospatial data and map interactions.",
+          "Individual development of multi-instance mobile applications with React Native.",
+          "Standardized workflows with Docker and managed relational database schemas."
+        ]
+      },
+      "fibron": {
+        "role": "Software Developer",
+        "company": "Fibron",
+        "period": "May 2023 - Dec 2024",
+        "location": "Bom Jesus do Galho, MG",
+        "description": [
+          "Full Stack development using React, Node.js and Laravel for scalable architectures.",
+          "Developed custom dashboards and mobile apps integrated with telecom ERPs.",
+          "Managed server infrastructure, application deployment, and database tuning.",
+          "Maintained corporate website and improved legacy PHP systems."
+        ]
+      }
+    }
+  },
+  "Education": {
+    "title": "Education",
+    "degree": "Systems Analysis and Development",
+    "uni": "Universidade Norte do Paraná",
+    "period": "2021 - 2023",
+    "scoreLabel": "Academic Performance",
+    "scoreValue": "97%",
+    "description": "Focused on the practical development of scalable, dynamic, and secure applications. Graduated with honors in programming logic and software architecture."
+  },
+  "Projects": {
+    "title": "Featured Projects",
+    "viewProject": "Visit Website",
+    "noLink": "",
+    "items": {
+      "correamoveis": {
+        "title": "Correa Móveis",
+        "description": "Complete E-commerce platform developed for the furniture industry, focusing on conversion and responsive shopping experience.",
+        "tags": ["WordPress", "WooCommerce", "PHP"]
+      },
+      "fibron": {
+        "title": "Fibron",
+        "description": "Institutional website and service platform for an ISP, optimized for SEO and high performance.",
+        "tags": ["React", "PHP", "SEO"]
+      },
+      "versamaps": {
+        "title": "Versamaps (WebGIS)",
+        "description": "Geographic intelligence SaaS for land regularization, enabling real-time map manipulation and geospatial data handling.",
+        "tags": ["Next.js", "Laravel", "PostGIS"]
+      },
+      "morarlegal": {
+        "title": "Morar Legal",
+        "description": "Multi-instance mobile application for field data collection and management in land regularization projects.",
+        "tags": ["React Native", "Laravel API"]
+      }
+    }
+  },
+  "Contact": {
+    "title": "Let's Talk?",
+    "subtitle": "I'm available for new projects and collaborations. Feel free to reach out through any of the channels below.",
+    "role": "Full Stack Developer",
+    "links": {
+      "email": "Send Email",
+      "linkedin": "Connect on LinkedIn",
+      "github": "View Repositories",
+      "whatsapp": "Message on WhatsApp"
+    },
+    "copy": "Built with Next.js, Framer Motion, and a lot of coffee."
+  }
+}

@@ -1,0 +1,128 @@
+{
+  "HomePage": {
+    "title": "Portfolio | Arthur Vinícius Corrêa"
+  },
+  "Navigation": {
+    "about": "Sobre",
+    "experience": "Experiência",
+    "education": "Formação",
+    "projects": "Projetos",
+    "contact": "Contato",
+    "toggleTheme": "Alternar Tema",
+    "toggleLang": "Mudar Idioma"
+  },
+  "Hero": {
+    "greeting": "Olá, eu sou",
+    "name": "Arthur Vinícius Corrêa",
+    "roles": ["Desenvolvedor Full Stack", "Especialista Web & Mobile", "Focado em Performance e Usabilidade"],
+    "description": "Desenvolvedor focado em arquitetura limpa, confiabilidade de sistemas e experiência do usuário.",
+    "ctaProjects": "Ver Projetos",
+    "ctaContact": "Entrar em contato"
+  },
+  "About": {
+    "title": "Sobre Mim",
+    "description": "Sou um desenvolvedor Full Stack com perfil analítico, focado em criar soluções robustas e escaláveis. Minha experiência abrange todo o ciclo de vida de desenvolvimento, desde a modelagem de dados até o deploy em nuvem.",
+    "skillsTitle": "Skills Técnicas",
+    "skillGroups": {
+      "web": "Web",
+      "mobile": "Mobile",
+      "backend": "Back-end",
+      "devops": "DevOps & Cloud"
+    },
+    "skills": {
+      "react": { "name": "React", "desc": "SPA, componentização e responsividade." },
+      "nextjs": { "name": "Next.js", "desc": "SSR, ISR e arquitetura moderna." },
+      "typescript": { "name": "TypeScript", "desc": "Tipagem estrita para código seguro." },
+      "tailwind": { "name": "Tailwind CSS", "desc": "Design responsivo e utilitário." },
+      "reactnative": { "name": "React Native", "desc": "Apps nativos para iOS e Android." },
+      "sqlite": { "name": "SQLite", "desc": "Banco de dados para aplicativos offline." },
+      "offline": { "name": "Offline First", "desc": "Sincronização e banco local." },
+      "sync": { "name": "Sync Services", "desc": "Background sync e notificações." },
+      "nodejs": { "name": "Node.js", "desc": "APIs escaláveis com foco em performance." },
+      "laravel": { "name": "Laravel (PHP)", "desc": "Desenvolvimento rápido e robusto." },
+      "postgres": { "name": "PostgreSQL", "desc": "Modelagem relacional e otimização de queries." },
+      "mongodb": { "name": "MongoDB", "desc": "Banco não-relacional para grande volume de dados." },
+      "docker": { "name": "Docker", "desc": "Containerização e isolamento." },
+      "aws": { "name": "AWS Cloud", "desc": "Deploy em EC2, S3 e RDS." },
+      "redisrabbitmq": { "name": "Redis/RabbitMQ", "desc": "Cache de alto desempenho, filas e sessões." },
+      "git": { "name": "CI/CD & Git", "desc": "Automação de deploy e controle." }
+    }
+  },
+  "Experience": {
+    "title": "Experiência Profissional",
+    "jobs": {
+      "versa": {
+        "role": "Analista Programador - Júnior II",
+        "company": "Versa Tecnologia",
+        "period": "Jan 2025 - Presente",
+        "location": "Caratinga, MG",
+        "description": [
+          "Desenvolvimento de sistema web de regularização fundiária com Next.js e Laravel.",
+          "Liderança no desenvolvimento de WebSIG com integração de mapas e dados geográficos.",
+          "Desenvolvimento individual de aplicativo mobile multiinstâncias em React Native.",
+          "Padronização de ambientes com Docker e gerenciamento de bancos de dados relacionais."
+        ]
+      },
+      "fibron": {
+        "role": "Programador",
+        "company": "Fibron",
+        "period": "Mai 2023 - Dez 2024",
+        "location": "Bom Jesus do Galho, MG",
+        "description": [
+          "Desenvolvimento Full Stack (React, Node.js, Laravel) e arquitetura de sistemas escaláveis.",
+          "Criação de painel administrativo e app mobile integrados a ERPs de telecom (IXC e SGP).",
+          "Responsável pela administração de servidores, backups e performance de banco de dados.",
+          "Manutenção do site institucional e evolução de sistemas legados em PHP."
+        ]
+      }
+    }
+  },
+  "Education": {
+    "title": "Formação Acadêmica",
+    "degree": "Análise e Desenvolvimento de Sistemas",
+    "uni": "Universidade Norte do Paraná",
+    "period": "2021 - 2023",
+    "scoreLabel": "Aproveitamento Acadêmico",
+    "scoreValue": "97%",
+    "description": "Foco no desenvolvimento prático de aplicações escaláveis, dinâmicas e seguras. Formação concluída com destaque em lógica de programação e arquitetura de software."
+  },
+  "Projects": {
+    "title": "Projetos em Destaque",
+    "viewProject": "Visitar Site",
+    "noLink": "",
+    "items": {
+      "correamoveis": {
+        "title": "Correa Móveis",
+        "description": "Plataforma de E-commerce completa desenvolvida para o setor moveleiro, com foco em conversão e experiência de compra responsiva.",
+        "tags": ["WordPress", "WooCommerce", "PHP"]
+      },
+      "fibron": {
+        "title": "Fibron",
+        "description": "Site institucional e plataforma de serviços para provedor de internet, otimizado para SEO e performance.",
+        "tags": ["React", "PHP", "SEO"]
+      },
+      "versamaps": {
+        "title": "Versamaps (WebSIG)",
+        "description": "SaaS de inteligência geográfica para regularização fundiária, permitindo manipulação de mapas e dados geográficos em tempo real.",
+        "tags": ["Next.js", "Laravel", "PostGIS"]
+      },
+      "morarlegal": {
+        "title": "Morar Legal",
+        "description": "Aplicativo mobile multiinstâncias para gestão e coleta de dados em campo para regularização fundiária.",
+        "tags": ["React Native", "Laravel API"]
+      }
+    }
+  },
+  "Contact": {
+    "title": "Vamos Conversar?",
+    "subtitle": "Estou disponível para novos projetos e colaborações. Sente-te à vontade para entrar em contacto através de qualquer um dos canais abaixo.",
+    "role": "Desenvolvedor Full Stack",
+    "links": {
+      "email": "Enviar Email",
+      "linkedin": "Conectar no LinkedIn",
+      "github": "Ver Repositórios",
+      "whatsapp": "Chamar no WhatsApp"
+    },
+    "copy": "Construído com Next.js, Framer Motion e muito café."
+  }
+}
