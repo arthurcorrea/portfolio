@@ -42,7 +42,7 @@ export default async function LocaleLayout({
         cz-shortcut-listen="true"
       >
         <NextIntlClientProvider messages={messages} locale={locale}>
-          <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
+          <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
             {children}
           </ThemeProvider>
         </NextIntlClientProvider>
