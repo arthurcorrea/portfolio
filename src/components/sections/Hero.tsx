@@ -49,7 +49,7 @@ export default function Hero() {
   return (
     <section
       onMouseMove={handleMouseMove}
-      className="relative w-full min-h-screen flex flex-col justify-center items-center bg-background text-foreground overflow-hidden px-6"
+      className="relative w-full min-h-screen flex flex-col justify-center py-32 items-center bg-background text-foreground overflow-hidden px-6"
     >
       <div
         className="pointer-events-none absolute inset-0 z-0 transition-opacity duration-300"
@@ -92,7 +92,6 @@ export default function Hero() {
           {t("description")}
         </p>
 
-        {/* Botões */}
         <div className="flex flex-col sm:flex-row gap-5 justify-center items-center">
           <motion.a
             ref={btnRef}
@@ -100,7 +99,7 @@ export default function Hero() {
             onMouseMove={handleBtnMouseMove}
             whileHover={{ scale: 1.02 }}
             whileTap={{ scale: 0.98 }}
-            className="group relative inline-flex items-center justify-center overflow-hidden rounded-lg px-8 py-4 font-bold tracking-wide text-primary-foreground bg-primary shadow-lg outline-none transition-all focus-visible:ring-2 focus-visible:ring-primary/50"
+            className="group relative inline-flex items-center justify-center overflow-hidden rounded-lg px-8 py-4 font-bold tracking-wide text-foreground bg-primary/90 shadow-lg outline-none transition-all focus-visible:ring-2 focus-visible:ring-primary/50"
           >
             <span
               className="pointer-events-none absolute -inset-px opacity-0 transition-opacity duration-300 group-hover:opacity-100"

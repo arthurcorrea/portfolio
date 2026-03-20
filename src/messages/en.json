@@ -14,7 +14,7 @@
   "Hero": {
     "greeting": "Hi, I am",
     "name": "Arthur Vinícius Corrêa",
-    "roles": ["Full Stack Developer", "Web & Mobile Specialist", "Performance Driven"],
+    "roles": ["Full Stack Developer", "Web & Mobile Professional", "Performance Driven"],
     "description": "Developer focused on clean architecture, system reliability, and user experience.",
     "ctaProjects": "View Projects",
     "ctaContact": "Get in Touch"
@@ -86,6 +86,7 @@
   },
   "Experience": {
     "title": "Professional Experience",
+    "subtitle": "Career",
     "jobs": {
       "versa": {
         "role": "Software Developer",
@@ -115,15 +116,24 @@
   },
   "Education": {
     "title": "Education",
+    "subtitle": "Degree",
     "degree": "Systems Analysis and Development",
     "uni": "Universidade Norte do Paraná",
     "period": "2021 - 2023",
     "scoreLabel": "Academic Performance",
     "scoreValue": "97%",
-    "description": "Focused on the practical development of scalable, dynamic, and secure applications. Graduated with honors in programming logic and software architecture."
+    "description": "Developed a strong analytical and technical foundation with a focus on modern software engineering. Throughout my studies, I gained hands-on experience building scalable and secure applications, deepening my knowledge in system architecture, modeling, and security. Additionally, I acquired practical experience in technical project planning using Agile methodologies and Clean Code best practices.",
+    "skills": {
+      "communication": "Effective Communication",
+      "problemSolving": "Problem Solving",
+      "teamwork": "Teamwork optimized",
+      "adaptability": "Adaptability",
+      "results": "Focus on Results"
+    }  
   },
   "Projects": {
     "title": "Featured Projects",
+    "subtitle": "Portfolio",
     "viewProject": "Visit Website",
     "noLink": "",
     "items": {
@@ -138,7 +148,7 @@
         "tags": ["React", "PHP", "SEO"]
       },
       "versamaps": {
-        "title": "Versamaps (WebGIS)",
+        "title": "VersaMaps (WebGIS)",
         "description": "Geographic intelligence SaaS for land regularization, enabling real-time map manipulation and geospatial data handling.",
         "tags": ["Next.js", "Laravel", "PostGIS"]
       },
@@ -151,13 +161,27 @@
   },
   "Contact": {
     "title": "Let's Talk?",
-    "subtitle": "I'm available for new projects and collaborations. Feel free to reach out through any of the channels below.",
+    "subtitle": "I'm available for new projects and collaborations. Feel free to reach out through any of the channels below or via the form on the side.",
+    "badge": "Contact",
     "role": "Full Stack Developer",
     "links": {
-      "email": "Send Email",
       "linkedin": "Connect on LinkedIn",
       "github": "View Repositories",
       "whatsapp": "Message on WhatsApp"
+    },
+    "form": {
+      "name_placeholder": "What's your name?",
+      "email_placeholder": "Your best email",
+      "message_placeholder": "Tell me about your project or idea...",
+      "submit_btn": "Send Message",
+      "success_title": "Message Sent!",
+      "success_msg": "Thank you! I've received your message and will get back to you soon.",
+      "error_msg": "Oops! Something went wrong. Please try again.",
+      "errors": {
+        "name_min": "Name must be at least 2 characters",
+        "email_invalid": "Please enter a valid email address",
+        "message_min": "Message must be at least 10 characters"
+      }
     },
     "copy": "Built with Next.js, Framer Motion, and a lot of coffee."
   }

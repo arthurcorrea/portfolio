@@ -17,7 +17,7 @@ export const PrimaryButton = ({
       className={`
         relative inline-flex items-center justify-center overflow-hidden 
         rounded-md px-5 py-2 text-sm font-semibold tracking-wide 
-        bg-primary text-primary-foreground
+        bg-primary/90 text-foreground
         transition-colors duration-300 ease-out
         hover:bg-primary/90 active:scale-[0.96] 
         focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-primary/50

@@ -14,7 +14,7 @@
   "Hero": {
     "greeting": "Olá, eu sou",
     "name": "Arthur Vinícius Corrêa",
-    "roles": ["Desenvolvedor Full Stack", "Especialista Web & Mobile", "Focado em Performance e Usabilidade"],
+    "roles": ["Desenvolvedor Full Stack", "Profissional em Web & Mobile", "Focado em Performance e Usabilidade"],
     "description": "Desenvolvedor focado em arquitetura limpa, confiabilidade de sistemas e experiência do usuário.",
     "ctaProjects": "Ver Projetos",
     "ctaContact": "Entrar em contato"
@@ -50,6 +50,7 @@
   },
   "Experience": {
     "title": "Experiência Profissional",
+    "subtitle": "Trajetória",
     "jobs": {
       "versa": {
         "role": "Analista Programador - Júnior II",
@@ -79,15 +80,24 @@
   },
   "Education": {
     "title": "Formação Acadêmica",
+    "subtitle": "Formação",
     "degree": "Análise e Desenvolvimento de Sistemas",
     "uni": "Universidade Norte do Paraná",
     "period": "2021 - 2023",
     "scoreLabel": "Aproveitamento Acadêmico",
     "scoreValue": "97%",
-    "description": "Foco no desenvolvimento prático de aplicações escaláveis, dinâmicas e seguras. Formação concluída com destaque em lógica de programação e arquitetura de software."
+    "description": "Desenvolvimento de uma base analítica sólida e técnica, com foco em engenharia de software moderna. Durante a formação, experienciei na prática a construção de aplicações escaláveis e seguras, aprofundando conhecimentos em arquitetura, modelagem e segurança de sistemas, além de ter obtido experiência prática em planejamento técnico de projetos acadêmicos utilizando metodologias ágeis e boas práticas de Clean Code.",
+    "skills": {
+      "communication": "Comunicação Efetiva",
+      "problemSolving": "Resolução de Problemas",
+      "teamwork": "Trabalho em Equipe",
+      "adaptability": "Adaptabilidade",
+      "results": "Foco em Resultados"
+    }
   },
   "Projects": {
     "title": "Projetos em Destaque",
+    "subtitle": "Portfólio",
     "viewProject": "Visitar Site",
     "noLink": "",
     "items": {
@@ -102,7 +112,7 @@
         "tags": ["React", "PHP", "SEO"]
       },
       "versamaps": {
-        "title": "Versamaps (WebSIG)",
+        "title": "VersaMaps (WebSIG)",
         "description": "SaaS de inteligência geográfica para regularização fundiária, permitindo manipulação de mapas e dados geográficos em tempo real.",
         "tags": ["Next.js", "Laravel", "PostGIS"]
       },
@@ -115,13 +125,27 @@
   },
   "Contact": {
     "title": "Vamos Conversar?",
-    "subtitle": "Estou disponível para novos projetos e colaborações. Sente-te à vontade para entrar em contacto através de qualquer um dos canais abaixo.",
+    "subtitle": "Estou disponível para novos projetos e colaborações. Sinta-se à vontade para entrar em contato através de qualquer um dos canais abaixo ou pelo formulário ao lado.",
+    "badge": "Contato",
     "role": "Desenvolvedor Full Stack",
     "links": {
-      "email": "Enviar Email",
       "linkedin": "Conectar no LinkedIn",
       "github": "Ver Repositórios",
       "whatsapp": "Chamar no WhatsApp"
+    },
+    "form": {
+      "name_placeholder": "Como posso te chamar?",
+      "email_placeholder": "Seu melhor e-mail",
+      "message_placeholder": "Conte-me sobre seu projeto ou ideia...",
+      "submit_btn": "Enviar Mensagem",
+      "success_title": "Mensagem Enviada!",
+      "success_msg": "Obrigado! Recebi seu contato e responderei em breve.",
+      "error_msg": "Ops! Ocorreu um erro ao enviar. Tente novamente.",
+      "errors": {
+        "name_min": "O nome deve ter pelo menos 2 caracteres",
+        "email_invalid": "Por favor, insira um e-mail válido",
+        "message_min": "A mensagem deve ter pelo menos 10 caracteres"
+      }
     },
     "copy": "Construído com Next.js, Framer Motion e muito café."
   }

@@ -37,7 +37,10 @@ export default async function LocaleLayout({
       suppressHydrationWarning
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased scroll-smooth`}
     >
-      <body className="bg-background text-foreground selection:bg-primary/30">
+      <body
+        className="bg-background text-foreground selection:bg-primary/30"
+        cz-shortcut-listen="true"
+      >
         <NextIntlClientProvider messages={messages} locale={locale}>
           <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
             {children}

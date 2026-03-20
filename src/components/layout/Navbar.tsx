@@ -223,7 +223,7 @@ export default function Navbar() {
                         scrollTo(link.href);
                         setMenuOpen(false);
                       }}
-                      className={`flex items-center border-b border-border/50 py-4 text-sm font-medium tracking-wide transition-colors duration-150
+                      className={`flex items-center border-b border-border/50 py-4 text-sm font-medium tracking-wide transition-colors duration-500
                         ${isActive ? "text-primary" : "text-foreground/80 hover:text-primary"}`}
                     >
                       {isActive && (
@@ -248,16 +248,15 @@ export default function Navbar() {
                   <Globe size={13} aria-hidden />
                   {locale.toUpperCase()}
                 </GhostButton>
-                <div className="flex-1">
-                  <PrimaryButton
-                    onClick={() => {
-                      scrollTo("#contact");
-                      setMenuOpen(false);
-                    }}
-                  >
-                    Contato
-                  </PrimaryButton>
-                </div>
+                <PrimaryButton
+                  className="flex-1"
+                  onClick={() => {
+                    scrollTo("#contact");
+                    setMenuOpen(false);
+                  }}
+                >
+                  Contato
+                </PrimaryButton>
               </motion.div>
             </nav>
           </motion.div>
