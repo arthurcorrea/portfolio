@@ -66,12 +66,10 @@ export function ContactForm() {
 
     try {
       await emailjs.sendForm(
-        // @ts-expect-error type
-        process.env.NEXT_PUBLIC_EMAIL_SERVICE,
-        process.env.NEXT_PUBLIC_EMAIL_TEMPLATE,
+        process.env.NEXT_PUBLIC_EMAIL_SERVICE || "",
+        process.env.NEXT_PUBLIC_EMAIL_TEMPLATE || "",
         formRef.current,
-        // @ts-expect-error type
-        { publicKey: NEXT_PUBLIC_EMAIL_API_KEY },
+        { publicKey: process.env.NEXT_PUBLIC_EMAIL_API_KEY },
       );
 
       setStatus("success");
