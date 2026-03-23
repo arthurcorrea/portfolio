@@ -5,6 +5,7 @@ import { Metadata } from "next";
 import { getMessages } from "next-intl/server";
 import { ThemeProvider } from "next-themes";
 import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -43,6 +44,7 @@ export default async function LocaleLayout({
         cz-shortcut-listen="true"
       >
         <Analytics />
+        <SpeedInsights />
         <NextIntlClientProvider messages={messages} locale={locale}>
           <ThemeProvider attribute="class" defaultTheme="dark" enableSystem>
             {children}
