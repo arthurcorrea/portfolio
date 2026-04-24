@@ -44,7 +44,7 @@
       "mongodb": { "name": "MongoDB", "desc": "Banco não-relacional para grande volume de dados." },
       "docker": { "name": "Docker", "desc": "Containerização e isolamento." },
       "aws": { "name": "AWS Cloud", "desc": "Deploy em EC2, S3 e RDS." },
-      "redisrabbitmq": { "name": "Redis/RabbitMQ", "desc": "Cache de alto desempenho, filas e sessões." },
+      "redisrabbitmq": { "name": "Redis & RabbitMQ", "desc": "Cache de alto desempenho, filas e sessões." },
       "git": { "name": "CI/CD & Git", "desc": "Automação de deploy e controle." }
     }
   },
@@ -113,7 +113,7 @@
       },
       "versamaps": {
         "title": "VersaMaps (WebSIG)",
-        "description": "SaaS de inteligência geográfica para regularização fundiária, permitindo manipulação de mapas e dados geográficos em tempo real.",
+        "description": "SaaS de inteligência geográfica para gerenciamento territorial, permitindo manipulação de mapas e dados geográficos em tempo real.",
         "tags": ["Next.js", "Laravel", "PostGIS"]
       },
       "morarlegal": {

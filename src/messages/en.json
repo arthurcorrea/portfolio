@@ -77,7 +77,7 @@
         "name": "AWS Cloud", 
         "desc": "Cloud deployment using EC2, S3, and RDS." 
       },
-      "redisrabbitmq": { "name": "Redis/RabbitMQ", "desc": "High-performance caching, queues, and sessions." },
+      "redisrabbitmq": { "name": "Redis & RabbitMQ", "desc": "High-performance caching, queues, and sessions." },
       "git": { 
         "name": "CI/CD & Git", 
         "desc": "Workflow automation and version control." 
@@ -149,7 +149,7 @@
       },
       "versamaps": {
         "title": "VersaMaps (WebGIS)",
-        "description": "Geographic intelligence SaaS for land regularization, enabling real-time map manipulation and geospatial data handling.",
+        "description": "Geographic intelligence SaaS for territorial management, enabling real-time map manipulation and geospatial data handling.",
         "tags": ["Next.js", "Laravel", "PostGIS"]
       },
       "morarlegal": {
